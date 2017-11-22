@@ -1,0 +1,15 @@
+*{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+h1{
+	font-style: bold ;
+	text-align: center;
+	letter-spacing: 6px;
+	border-style: groove;
+}
+table{
+    border: 14px;
+    
+}

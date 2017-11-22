@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculatrice du Turfu :</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Calculatrice du Turfu</h1>
+			<form name="calculette">
+				<table>
+					<tr>
+						<td style="background-color: #ccc">
+							<input name="affiche" size="40" maxlength="40">
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:#fff">
+							<table>
+								<tr>
+									<td width="70"><input type="button" value=" 0 " onclick="allonger('0')"></td>
+									<td width="70"><input type="button" value=" 1 " onclick="allonger('1')"></td>
+									<td width="70"><input type="button" value=" 2 " onclick="allonger('2')"></td>
+									<td width="70"><input type="button" value=" + " onclick="allonger('+')"></td>
+								</tr>
+								<tr>
+									<td width="70"><input type="button" value=" 3 " onclick="allonger('3')"></td>
+									<td width="70"><input type="button" value=" 4 " onclick="allonger('4')"></td>
+									<td width="70"><input type="button" value=" 5 " onclick="allonger('5')"></td>
+									<td width="70"><input type="button" value=" - " onclick="allonger('-')"></td>
+								</tr>
+								<tr>
+									<td width="70"><input type="button" value=" 6 " onclick="allonger('6')"></td>
+									<td width="70"><input type="button" value=" 7 " onclick="allonger('7')"></td>
+									<td width="70"><input type="button" value=" 8 " onclick="allonger('8')"></td>
+									<td width="70"><input type="button" value=" * " onclick="allonger('*')"></td>
+								</tr>
+								<tr>
+									<td width="70"><input type="button" value=" = " onclick="evaluer()"></td>
+									<td width="70"><input type="button" value=" 9 " onclick="allonger('9')"></td>
+									<td width="70"><input type="button" value=" . " onclick="allonger('.')"></td>
+									<td width="70"><input type="button" value=" / " onclick="allonger('/')"></td>
+								</tr>
+								<tr>
+									<td width="70"><input type="button" value=" Sqrt " onclick="fonctpartic('sqrt')"></td>
+									<td width="70"><input type="button" value=" car " onclick="fonctpartic('car')"></td>
+									<td width="70"><input type="button" value=" ln " onclick="fonctpartic('log')"></td>
+									<td width="70"><input type="reset" value=" C "></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</form>
+
+		<script type="text/javascript" src="script.js"></script>
+		</body>
+	</html>
+			
